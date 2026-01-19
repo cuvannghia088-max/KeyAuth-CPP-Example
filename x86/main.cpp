@@ -11,8 +11,8 @@ const std::string compilation_time = (std::string)skCrypt(__TIME__);
 
 using namespace KeyAuth;
 
-std::string name = skCrypt("name").decrypt();
-std::string ownerid = skCrypt("ownerid").decrypt();
+std::string name = skCrypt("Phamvannghia2345678's Application").decrypt();
+std::string ownerid = skCrypt("eIdsOe4J0j").decrypt();
 std::string secret = skCrypt("secret").decrypt();
 std::string version = skCrypt("1.0").decrypt();
 std::string url = skCrypt("https://keyauth.win/api/1.2/").decrypt(); // change if you're self-hosting
